@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+body{
+  background-image: url("img/bg.jpg");
+  background-size: 100vw 100vh;
+  position: relative;
+  /* justify-content: center;
+  display: flex; */
+}
+h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 400%;
+  text-align: center;
+}
+p{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 200%;
+  position: absolute;
+  left: 10%;
+  top: 8%;
+}
+canvas{
+  display: block;
+  margin: 0 auto;
+  /* position: sticky; */
+  /* bottom: 18%; */
+  /* right: 30%; */
+}
+.canvas{
+  padding-top:3%;
+}
